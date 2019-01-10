@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/multiple_launcher"
+            android:title="@string/multiple" />
+        <item
+            android:id="@+id/one_after_the_other_launcher"
+            android:title="@string/one_after_the_other" />
+        <item
+            android:id="@+id/reactive_vs_callbacks_launcher"
+            android:title="@string/reactive_vs_callback" />
+    </group>
+
+</menu>
